@@ -1,0 +1,11 @@
+{
+  "id": "survival",
+  "name": "Survival",
+  "fly": false,
+  "infiniteItems": false,
+  "instantBreak": false,
+  "playerDamage": true,
+  "mobSpawning": true,
+  "health": 20,
+  "breakSeconds": 0.35
+}

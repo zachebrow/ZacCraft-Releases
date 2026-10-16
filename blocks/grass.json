@@ -1,0 +1,14 @@
+{
+  "id": "grass",
+  "name": "Grass",
+  "type": "static",
+  "loot": "grass",
+  "solid": true,
+  "texture": "blocks/grass_side.png",
+  "textures": {
+    "all": "blocks/grass_side.png",
+    "top": "blocks/grass.png",
+    "bottom": "blocks/dirt.png",
+    "side": "blocks/grass_side.png"
+  }
+}

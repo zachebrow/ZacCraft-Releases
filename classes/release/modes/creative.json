@@ -1,0 +1,12 @@
+{
+  "id": "creative",
+  "name": "Creative",
+  "fly": true,
+  "infiniteItems": true,
+  "instantBreak": true,
+  "playerDamage": false,
+  "mobSpawning": false,
+  "health": 20,
+  "breakSeconds": 0,
+  "flat": true
+}

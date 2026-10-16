@@ -1,0 +1,19 @@
+{
+  "id": "grass",
+  "name": "Grass",
+  "type": "static",
+  "loot": "dirt",
+  "solid": true,
+  "texture": "blocks/grass_side.png",
+  "textures": {
+    "all": "blocks/grass_side.png",
+    "top": "blocks/grass.png",
+    "bottom": "blocks/dirt.png",
+    "side": "blocks/grass_side.png"
+  },
+  "sounds": {
+    "place": "blocks/grass_place.ogg",
+    "break": "blocks/grass_break.ogg",
+    "step": "blocks/grass_step.ogg"
+  }
+}

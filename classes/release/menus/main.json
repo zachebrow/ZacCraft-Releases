@@ -1,0 +1,14 @@
+{
+  "id": "main",
+  "title": "ZacCraft",
+  "subtitle": "Build. Mod. Survive.",
+  "buttonTexture": "menus/button.png",
+  "tileBorder": 8,
+  "background": "menus/background.png",
+  "buttons": [
+    { "label": "Creative", "action": "start_mode:creative", "width": 320, "height": 48 },
+    { "label": "Survival", "action": "start_mode:survival", "width": 320, "height": 48 },
+    { "label": "Compile Mod", "action": "compile_mod", "width": 320, "height": 48 },
+    { "label": "Quit", "action": "quit", "width": 320, "height": 48 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "example_genocidal",
+  "name": "Example Genocidal",
+  "attitude": "genocidal",
+  "health": 20,
+  "speed": 2.4,
+  "damage": 5,
+  "width": 0.8,
+  "height": 1.8,
+  "texture": "entities/example_genocidal.png",
+  "sounds": {
+    "idle": "entities/example_genocidal_idle.ogg",
+    "hurt": "entities/example_genocidal_hurt.ogg",
+    "death": "entities/example_genocidal_death.ogg",
+    "attack": "entities/example_genocidal_attack.ogg"
+  }
+}

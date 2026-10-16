@@ -1,0 +1,16 @@
+{
+  "id": "example_pacifist",
+  "name": "Example Pacifist",
+  "attitude": "pacifist",
+  "health": 10,
+  "speed": 1.6,
+  "damage": 0,
+  "width": 0.6,
+  "height": 1.4,
+  "texture": "entities/example_pacifist.png",
+  "sounds": {
+    "idle": "entities/example_pacifist_idle.ogg",
+    "hurt": "entities/example_pacifist_hurt.ogg",
+    "death": "entities/example_pacifist_death.ogg"
+  }
+}

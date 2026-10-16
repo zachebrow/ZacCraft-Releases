@@ -1,0 +1,11 @@
+{
+  "id": "stone",
+  "name": "Stone",
+  "type": "static",
+  "loot": "stone",
+  "solid": true,
+  "texture": "blocks/stone.png",
+  "textures": {
+    "all": "blocks/stone.png"
+  }
+}

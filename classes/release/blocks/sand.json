@@ -1,0 +1,14 @@
+{
+  "id": "sand",
+  "name": "Sand",
+  "type": "drop",
+  "loot": "sand",
+  "solid": true,
+  "texture": "blocks/sand.png",
+  "sounds": {
+    "place": "blocks/sand_place.ogg",
+    "break": "blocks/sand_break.ogg",
+    "step": "blocks/sand_step.ogg",
+    "land": "blocks/sand_land.ogg"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "example_neutral",
+  "name": "Example Neutral",
+  "attitude": "neutral",
+  "health": 16,
+  "speed": 2.0,
+  "damage": 3,
+  "width": 0.7,
+  "height": 1.6,
+  "texture": "entities/example_neutral.png",
+  "sounds": {
+    "idle": "entities/example_neutral_idle.ogg",
+    "hurt": "entities/example_neutral_hurt.ogg",
+    "death": "entities/example_neutral_death.ogg",
+    "attack": "entities/example_neutral_attack.ogg"
+  }
+}

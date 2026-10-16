@@ -1,0 +1,125 @@
+{
+  "meta": { "format_version": "4.10", "model_format": "free", "box_uv": true },
+  "name": "zombie",
+  "resolution": { "width": 16, "height": 16 },
+  "zaccraft": {
+    "type": "genocidal",
+    "parts": {
+      "head": "head",
+      "body": "body",
+      "right_arm": "arm_right",
+      "left_arm": "arm_left",
+      "right_leg": "leg_right",
+      "left_leg": "leg_left"
+    }
+  },
+  "elements": [
+    {
+      "name": "head",
+      "from": [-4, 18, -4],
+      "to": [4, 26, 4],
+      "origin": [0, 24, 0],
+      "uuid": "elem-head",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    },
+    {
+      "name": "body",
+      "from": [-4, 6, -2],
+      "to": [4, 18, 2],
+      "origin": [0, 6, 0],
+      "uuid": "elem-body",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    },
+    {
+      "name": "right_arm",
+      "from": [4, 6, -2],
+      "to": [8, 18, 2],
+      "origin": [6, 18, 0],
+      "uuid": "elem-arm-r",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    },
+    {
+      "name": "left_arm",
+      "from": [-8, 6, -2],
+      "to": [-4, 18, 2],
+      "origin": [-6, 18, 0],
+      "uuid": "elem-arm-l",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    },
+    {
+      "name": "right_leg",
+      "from": [0, 0, -2],
+      "to": [4, 6, 2],
+      "origin": [2, 6, 0],
+      "uuid": "elem-leg-r",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    },
+    {
+      "name": "left_leg",
+      "from": [-4, 0, -2],
+      "to": [0, 6, 2],
+      "origin": [-2, 6, 0],
+      "uuid": "elem-leg-l",
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "down": { "uv": [0, 0, 16, 16], "texture": 0 }
+      }
+    }
+  ],
+  "outliner": [
+    { "name": "head", "uuid": "grp-head", "origin": [0, 24, 0], "children": ["elem-head"] },
+    { "name": "body", "uuid": "grp-body", "origin": [0, 6, 0], "children": ["elem-body"] },
+    { "name": "right_arm", "uuid": "grp-arm-r", "origin": [6, 18, 0], "children": ["elem-arm-r"] },
+    { "name": "left_arm", "uuid": "grp-arm-l", "origin": [-6, 18, 0], "children": ["elem-arm-l"] },
+    { "name": "right_leg", "uuid": "grp-leg-r", "origin": [2, 6, 0], "children": ["elem-leg-r"] },
+    { "name": "left_leg", "uuid": "grp-leg-l", "origin": [-2, 6, 0], "children": ["elem-leg-l"] }
+  ],
+  "textures": [
+    {
+      "name": "zombie.png",
+      "id": "0",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIoSURBVDhPFcwhyq5AAEDRt7A/immSGOQipkliMIhpkhgMYpokBoPR6P7u4zsLOP/+bixuDDfWN7Y3xhuHG6cb043rjfuN+cbrxufG98bvxn9/JxYnhhPrE9sT44nDidOJ6cT1xP3EfOJ14nPie+J3/oKMRcaQsc7YZowZh4xTxpRxzbhnzBmvjE/GN+OXf8GBxYHhwPrA9sB44HDgdGA6cD1wPzAfeB34HPge+B2/YMNiw7BhvWG7Ydxw2HDaMG24brhvmDe8Nnw2fDf8tl+wYLFgWLBesF0wLjgsOC2YFlwX3BfMC14LPgu+C37LL0hYJAwJ64RtwphwSDglTAnXhHvCnPBK+CR8E37pF8xYzBhmrGdsZ4wzDjNOM6YZ1xn3GfOM14zPjO+M3/wLRixGDCPWI7YjxhGHEacR04jriPuIecRrxGfEd8Rv/AU9Fj2GHuse2x5jj0OPU4+px7XHvcfc49Xj0+Pb49f/gohFxBCxjthGjBGHiFPEFHGNuEfMEa+IT8Q34hd/QYdFh6HDusO2w9jh0OHUYepw7XDvMHd4dfh0+Hb4db+gwaLB0GDdYNtgbHBocGowNbg2uDeYG7wafBp8G/yaX1BhUWGosK6wrTBWOFQ4VZgqXCvcK8wVXhU+Fb4VftUvCFgEDAHrgG3AGHAIOAVMAdeAe8Ac8Ar4BHwDfuEXlFiUGEqsS2xLjCUOJU4lphLXEvcSc4lXiU+Jb4lfif8BZElEH2R0vh8AAAAASUVORK5CYII=",
+      "uv_width": 16,
+      "uv_height": 16
+    }
+  ]
+}

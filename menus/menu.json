@@ -1,0 +1,12 @@
+{
+  "id": "example_menu",
+  "title": "Main Menu",
+  "subtitle": "Menus are COOL!",
+  "buttonTexture": "menus/stone.png",
+  "tileBorder": 8,
+  "background": "menus/dirt.png",
+  "buttons": [
+    { "label": "Do Something", "action": "open_menu:main", "width": 320, "height": 48 },
+    { "label": "Back", "action": "open_menu:main", "width": 320, "height": 48 }
+  ]
+}

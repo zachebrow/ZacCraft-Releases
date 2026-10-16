@@ -1,0 +1,13 @@
+{
+  "id": "dirt",
+  "name": "Dirt",
+  "type": "static",
+  "loot": "dirt",
+  "solid": true,
+  "texture": "blocks/dirt.png",
+  "sounds": {
+    "place": "blocks/dirt_place.ogg",
+    "break": "blocks/dirt_break.ogg",
+    "step": "blocks/dirt_step.ogg"
+  }
+}

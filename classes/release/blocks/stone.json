@@ -1,0 +1,13 @@
+{
+  "id": "stone",
+  "name": "Stone",
+  "type": "static",
+  "loot": "stone",
+  "solid": true,
+  "texture": "blocks/stone.png",
+  "sounds": {
+    "place": "blocks/stone_place.ogg",
+    "break": "blocks/stone_break.ogg",
+    "step": "blocks/stone_step.ogg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "dirt",
+  "name": "Dirt",
+  "type": "static",
+  "loot": "dirt",
+  "solid": true,
+  "texture": "blocks/dirt.png",
+  "textures": {
+    "all": "blocks/dirt.png"
+  }
+}

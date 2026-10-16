@@ -1,0 +1,23 @@
+{
+  "id": "example_static",
+  "name": "Example Static",
+  "type": "static",
+  "loot": "example_static",
+  "solid": true,
+  "texture": "blocks/example_static.png",
+  "textures": {
+    "all": "blocks/example_static.png",
+    "top": "blocks/example_static.png",
+    "bottom": "blocks/example_static.png",
+    "side": "blocks/example_static.png",
+    "north": "blocks/example_static.png",
+    "south": "blocks/example_static.png",
+    "east": "blocks/example_static.png",
+    "west": "blocks/example_static.png"
+  },
+  "sounds": {
+    "place": "blocks/example_static_place.ogg",
+    "break": "blocks/example_static_break.ogg",
+    "step": "blocks/example_static_step.ogg"
+  }
+}

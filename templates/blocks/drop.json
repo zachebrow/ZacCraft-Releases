@@ -1,0 +1,14 @@
+{
+  "id": "example_drop",
+  "name": "Example Drop",
+  "type": "drop",
+  "loot": "example_drop",
+  "solid": true,
+  "texture": "blocks/example_drop.png",
+  "sounds": {
+    "place": "blocks/example_drop_place.ogg",
+    "break": "blocks/example_drop_break.ogg",
+    "step": "blocks/example_drop_step.ogg",
+    "land": "blocks/example_drop_land.ogg"
+  }
+}

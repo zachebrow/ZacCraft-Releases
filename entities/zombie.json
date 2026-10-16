@@ -1,0 +1,12 @@
+{
+  "id": "zombie",
+  "name": "Zombie",
+  "attitude": "genocidal",
+  "health": 20,
+  "speed": 1.8,
+  "damage": 4,
+  "width": 0.7,
+  "height": 1.8,
+  "model": "mobs/zombie.bbmodel",
+  "sounds": {}
+}

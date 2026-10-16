@@ -1,0 +1,13 @@
+{
+  "id": "pause",
+  "title": "Paused",
+  "subtitle": "F5 reloads content",
+  "buttonTexture": "menus/button.png",
+  "tileBorder": 8,
+  "buttons": [
+    { "label": "Resume", "action": "resume", "width": 320, "height": 48 },
+    { "label": "Reload Content", "action": "reload", "width": 320, "height": 48 },
+    { "label": "Compile Mod", "action": "compile_mod", "width": 320, "height": 48 },
+    { "label": "Quit to Menu", "action": "open_menu:main", "width": 320, "height": 48 }
+  ]
+}
